@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'scss/theme';
+@import 'scss/fonts';
+
+body, html {
+  padding: 0;
+  margin: 0;
+
+  font-family: $font-sans;
+  font-size: 8px;
+
+  color: $base-color;
+  background-color: $background-color;
+}
