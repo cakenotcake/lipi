@@ -9,6 +9,7 @@ export class NavButtonComponent implements OnInit {
 
   @Input() asset: string | undefined = undefined;
   @Input() label: string | undefined = undefined;
+  @Input() url: string | undefined = undefined;
 
   constructor() { }
 

@@ -1,8 +1,12 @@
-@import 'theme';
+@import "theme";
 
-.nav-button{
-  .label, img{
-    color: $nav-inactive;
+.nav-button {
+  &:not(.active) {
+    .label {
+      color: $nav-inactive;
+    }
+    img {
+      filter: opacity(0.43);
+    }
   }
-
 }

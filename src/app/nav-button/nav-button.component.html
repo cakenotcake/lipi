@@ -1,4 +1,4 @@
-<div class="nav-button" fxLayout="column" fxLayoutGap="4px">
+<div class="nav-button" fxLayout="column" fxLayoutGap="4px" *ngIf="url" [routerLink]="url" routerLinkActive="active">
   <img [src]="asset" alt="" *ngIf="asset" height="24px" width="auto">
   <span class="label" *ngIf="label">{{label}}</span>
 </div>

@@ -10,6 +10,8 @@ import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
 import { NavComponent } from './nav/nav.component';
 import { NavButtonComponent } from './nav-button/nav-button.component';
+import { HomeComponent } from './home/home.component';
+import { DownloadsComponent } from './downloads/downloads.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { NavButtonComponent } from './nav-button/nav-button.component';
     HeaderComponent,
     SearchComponent,
     NavComponent,
-    NavButtonComponent
+    NavButtonComponent,
+    HomeComponent,
+    DownloadsComponent
   ],
   imports: [
     BrowserModule,
